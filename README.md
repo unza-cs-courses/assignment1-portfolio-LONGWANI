@@ -112,38 +112,45 @@ The following are checked automatically on each push:
 
 Before submitting, verify:
 
-- [ ] All 4 sections are complete (Home, About, Projects, Contact)
-- [ ] HTML validates with no errors
-- [ ] CSS uses custom properties (variables)
-- [ ] Flexbox is used for at least one component
-- [ ] CSS Grid is used for at least one component
-- [ ] Site is responsive at all breakpoints
-- [ ] All images have alt text
-- [ ] Form inputs have labels
-- [ ] Screenshots added to `/screenshots` folder
-- [ ] README updated with your information
+- [X] All 4 sections are complete (Home, About, Projects, Contact)
+- [x] HTML validates with no errors
+- [x] CSS uses custom properties (variables)
+- [x] Flexbox is used for at least one component
+- [x] CSS Grid is used for at least one component
+- [x] Site is responsive at all breakpoints
+- [x] All images have alt text
+- [x] Form inputs have labels
+- [x] Screenshots added to `/screenshots` folder
+- [x] README updated with your information
 
 ---
 
 ## Your Information
 
-**Name:** [Your Name]
-**Student ID:** [Your Student ID]
-**Design Theme:** [Describe your portfolio theme/style]
+**Name:** [Vernon Longwani]
+**Student ID:** [2021399885]
+**Design Theme:** [ A blue primary accent (#2563eb) and emerald green secondary (#10b981). The design uses soft neutrals for backgrounds and cards to ensure readability and a polished look.]
 
 ### CSS Techniques Used
-- [ ] CSS Custom Properties
-- [ ] Flexbox
-- [ ] CSS Grid
-- [ ] Media Queries
-- [ ] Other: _______________
+- [X] CSS Custom Properties
+- [x] Flexbox
+- [x] CSS Grid
+- [x] Media Queries
+- [ ] Other: _hover effects on Buttons______________
 
 ### Challenges & Solutions
-[Describe any challenges you faced and how you solved them]
+[Some of the Challenges i faced were as follows
+1. Challenge: Making the project cards responsive across three breakpoints this was one of my toughest challenges.
+Solution: Used CSS Grid with grid-template-columns: 1fr (mobile), repeat(2, 1fr) (tablet), and repeat(3, 1fr) (desktop). Added a fourth column for large desktops to showcase extra projects.
+
+2. Challenge: Maintaining consistent spacing with custom properties and this was my second toughest challenge i faced.
+Solution: Defined a spacing scale (--spacing-xs to --spacing-xl) and applied it throughout, making adjustments in media queries only when necessary.]
 
 ### Credits
 [List any images, fonts, or resources used with attribution]
-
+1.Weather APP image where gotten from https://www.pexels.com/photo/lightning-over-body-of-water-4870641/
+2.E-Commerce Image was gotten from https://www.pexels.com/photo/sticky-notes-on-a-laptop-6991837/
+3.Profile image on a potfolia project i own the rights to it.
 ---
 
 ## Academic Integrity
